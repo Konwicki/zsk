@@ -1,5 +1,8 @@
 <?php
-echo 'test';
-echo 'test'
+$name = 'Janusz';
+$surname = 'Nowak';
+// konktenacja .
+echo 'imię:$name'.'<br>';
+echo "imię:$name";
 
  ?>
