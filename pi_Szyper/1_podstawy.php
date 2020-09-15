@@ -1,7 +1,7 @@
 <?php
 $name = 'Janusz';
 $surname = 'Nowak';
-// konktenacja .
+// konkatenacja .
 echo 'imię:$name'.'<br>';
 echo "imię:$name";
 
