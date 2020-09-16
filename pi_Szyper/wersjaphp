@@ -1,0 +1,27 @@
+<?php
+//wersja php
+echo PHP_VERSION, '<br>';
+// echo phpinfo();
+
+//interpolacja ,
+echo 'a','b','c'; //show a show b show case
+echo'<br>';
+echo 'a'.'b'.'c'; //add a+b+c show abc
+echo'<br>';
+
+//potęgowanoie
+$pow = 2**10; //1024
+echo "$pow<br>";
+
+//operatory bitowe
+//and &, or |, not ~, xor ^, <<, >>
+$bin = 0b1010;
+echo "$bin<br>"; //10
+
+$bin = $bin << 2; //101000
+echo "$bin<br>";
+
+$bin = $bin >> 3; //101
+echo $bin;
+
+ ?>
