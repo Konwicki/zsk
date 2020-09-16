@@ -1,0 +1,56 @@
+<?php
+$name = 'Janusz';
+$surname = 'Nowak';
+// konkatenacja .
+echo 'imię:$name'.'<br>';
+echo "imię:$name";
+
+//typy danych
+//boolean
+$prawda=true;
+$fałsz=false;
+
+echo $prawda; //1
+echo $fałsz; //nic nie wywietli
+
+//integer
+$bin = 0b1011;
+$oct =012;
+$dec =12;
+$hex =0xC;
+
+echo "<br>$bin<br>$oct<br>$dec<br>$hex<br>";
+
+//skladnia heredoc
+
+$name = 'Anna';
+$surname = 'Kowalska';
+
+
+$text = <<<LABEL
+<hr>Heredoc 1 <br>
+Imię: $name<br>
+<hr>
+LABEL;
+
+echo $text;
+
+echo<<<L
+Heredoc 2<br>
+Imię: $name<br>
+Nazwisko: $surname<br>
+<hr>
+L;
+
+//skladnia nowdoc
+
+echo <<<'L'
+Nowdoc<br>
+Imię: $name<br>
+Nazwisko: $surname<br>
+L;
+
+$city = 'Poznań';
+echo "Nazwa miasta: \$city, wartość: $city";
+
+ ?>
